@@ -1,7 +1,11 @@
 language: go
 
 go:
-  - 1.x
-  - 1.6
-  - 1.7.x
-  - master
+  - 1.8
+
+env:
+  global:
+    
+branches:
+  except:
+  - /^feature.*$/
