@@ -14,7 +14,7 @@ import (
 func main() {
 	if len(os.Args) > 1 {
 		switch arg := os.Args[1]; arg {
-		case "migrate":
+		case "migrater":
 			migrate.Init()
 		case "seed":
 			seed.Init()
